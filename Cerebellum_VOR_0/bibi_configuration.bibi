@@ -12,6 +12,7 @@
     <ns1:populations population="dcn_n" from="262" step="1" to="280" xsi:type="ns1:Range" />
   </ns1:brainModel>
   <ns1:mode>SynchronousDirectNestSimulation</ns1:mode>
+  <ns1:timestep>10</ns1:timestep>
   <ns1:bodyModel robotId="icub">icub_model/model.sdf</ns1:bodyModel>
   <ns1:transferFunction src="all_neurons_monitor.py" active="true" xsi:type="ns1:PythonTransferFunction" />
   <ns1:transferFunction src="move_head.py" active="true" xsi:type="ns1:PythonTransferFunction" />

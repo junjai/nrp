@@ -1,0 +1,22 @@
+<ns1:bibi 
+  xmlns:ns1="http://schemas.humanbrainproject.eu/SP10/2014/BIBI" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns1:brainModel>
+    <ns1:file>cerebellum.py</ns1:file>
+    <ns1:populations population="record" from="0" step="1" to="280" xsi:type="ns1:Range" />
+    <ns1:populations population="mf" from="0" step="1" to="100" xsi:type="ns1:Range" />
+    <ns1:populations population="pc" from="100" step="1" to="172" xsi:type="ns1:Range" />
+    <ns1:populations population="io_p" from="172" step="1" to="208" xsi:type="ns1:Range" />
+    <ns1:populations population="io_n" from="208" step="1" to="244" xsi:type="ns1:Range" />
+    <ns1:populations population="dcn_p" from="244" step="1" to="262" xsi:type="ns1:Range" />
+    <ns1:populations population="dcn_n" from="262" step="1" to="280" xsi:type="ns1:Range" />
+  </ns1:brainModel>
+  <ns1:mode>SynchronousDirectNestSimulation</ns1:mode>
+  <ns1:bodyModel robotId="icub">icub_model/model.sdf</ns1:bodyModel>
+  <ns1:transferFunction src="move_head.py" active="true" xsi:type="ns1:PythonTransferFunction" />
+  <ns1:transferFunction src="all_neurons_monitor.py" active="true" xsi:type="ns1:PythonTransferFunction" />
+  <ns1:transferFunction src="eye_control.py" active="true" xsi:type="ns1:PythonTransferFunction" />
+  <ns1:transferFunction src="set_eyepos.py" active="true" xsi:type="ns1:PythonTransferFunction" />
+  <ns1:transferFunction src="csv_spike_monitor.py" active="true" xsi:type="ns1:PythonTransferFunction" />
+  <ns1:transferFunction src="eye_sensor_transmit.py" active="true" xsi:type="ns1:PythonTransferFunction" />
+</ns1:bibi>

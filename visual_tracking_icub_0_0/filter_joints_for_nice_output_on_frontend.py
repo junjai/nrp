@@ -3,7 +3,11 @@
 from sensor_msgs.msg import JointState
 @nrp.MapRobotSubscriber("joints", Topic("/icub/joints", JointState))
 @nrp.Neuron2Robot(Topic('/icub/joint_states', JointState))
+<<<<<<< HEAD
 def filter_joints_for_nice_output_on_frontend (t, joints):
+=======
+def filter_joints_for_nice_output_on_frontend(t, joints):
+>>>>>>> 3207fed49dc748a2b4885ceac000fec386f73e0d
     from sensor_msgs.msg import JointState
     joints = joints.value
     to_forward = ['eye_version']

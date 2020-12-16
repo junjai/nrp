@@ -48,7 +48,6 @@
           "isClosable": true,
           "reorderEnabled": true,
           "title": "",
-<<<<<<< HEAD
           "height": 60,
           "content": [
             {
@@ -108,34 +107,6 @@
                       "reorderEnabled": true
                     }
                   ]
-=======
-          "height": 75,
-          "content": [
-            {
-              "type": "stack",
-              "width": 50.769230769230774,
-              "height": 100,
-              "isClosable": true,
-              "reorderEnabled": true,
-              "title": "",
-              "activeItemIndex": 0,
-              "content": [
-                {
-                  "type": "component",
-                  "title": "Environment Rendering",
-                  "id": "environment-rendering",
-                  "componentName": "angularModuleComponent",
-                  "componentState": {
-                    "module": "environmentRenderingModule",
-                    "angularDirective": "<environment-rendering />",
-                    "singleton": true
-                  },
-                  "isClosable": false,
-                  "customOptionsDirective": "<environment-rendering-options/>",
-                  "pwidth": 800,
-                  "pheight": 600,
-                  "reorderEnabled": true
->>>>>>> 3207fed49dc748a2b4885ceac000fec386f73e0d
                 }
               ]
             },
@@ -145,7 +116,6 @@
               "reorderEnabled": true,
               "title": "",
               "activeItemIndex": 0,
-<<<<<<< HEAD
               "height": 80.40201005025126,
               "width": 59.42194611474703,
               "content": [
@@ -160,22 +130,6 @@
                   },
                   "pwidth": 600,
                   "pheight": 400,
-=======
-              "width": 49.6124031007752,
-              "content": [
-                {
-                  "type": "component",
-                  "title": "Brain Editor",
-                  "id": "pynn-editor",
-                  "componentName": "angularModuleComponent",
-                  "componentState": {
-                    "module": "exdFrontendApp",
-                    "angularDirective": "<pynn-editor />",
-                    "singleton": true
-                  },
-                  "pwidth": 800,
-                  "pheight": 900,
->>>>>>> 3207fed49dc748a2b4885ceac000fec386f73e0d
                   "isClosable": true,
                   "reorderEnabled": true
                 }
@@ -187,14 +141,8 @@
       "isClosable": true,
       "reorderEnabled": true,
       "title": "",
-<<<<<<< HEAD
       "openPopouts": [],
       "maximisedItemId": "__glMaximised"
-=======
-      "width": 50,
-      "openPopouts": [],
-      "maximisedItemId": null
->>>>>>> 3207fed49dc748a2b4885ceac000fec386f73e0d
     }
   }
 }
